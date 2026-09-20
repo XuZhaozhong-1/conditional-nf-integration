@@ -25,7 +25,7 @@ class MLP(nn.Module):
 class Permute(nn.Module):
     """
     Fixed permutation of dimensions. Invertible with zero logdet.
-    
+
     """
     def __init__(self, perm: torch.Tensor):
         super().__init__()
@@ -94,7 +94,7 @@ class RealNVP(nn.Module):
         dim: int,
         n_blocks: int = 8,
         hidden: int = 128,
-        permute: str = "reverse",  
+        permute: str = "reverse",
         seed: int = 0,
     ):
         super().__init__()

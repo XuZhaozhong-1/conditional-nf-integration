@@ -320,22 +320,22 @@ class ConditionalRQFlow1D(nn.Module):
     def spline_regularization(self, cond):
         """
         Smoothness regularization for the RQ spline derivatives.
-        
+
         Penalizes sharp jumps in neighboring log-derivatives.
-        
+
         This helps reduce artificial bumps/spikes in q_theta.
-        
+
         """
         _, _, derivatives, _, _ = self._params(cond)
-        
+
         log_deriv = torch.log(derivatives + 1e-12)
-        
+
         smooth_penalty = (
             (log_deriv[:, 1:] - log_deriv[:, :-1]) ** 2
         ).mean()
-        
+
         return smooth_penalty
-        
+
     def sample(self, n, cond, device=None):
         """
         Sample x ~ q_theta(x | cond).
