@@ -1,0 +1,1 @@
+generate_events performance_r0_600 -f

@@ -1,0 +1,5 @@
+energy_gev,points,finite_fraction,max_abs_relative_difference,rms_relative_difference,mean_ratio
+800.0,100,1.0,0.0,0.0,1.0
+1400.0,100,1.0,0.0,0.0,1.0
+1990.0,100,1.0,0.0,0.0,1.0
+2000.0,100,1.0,0.0,0.0,1.0

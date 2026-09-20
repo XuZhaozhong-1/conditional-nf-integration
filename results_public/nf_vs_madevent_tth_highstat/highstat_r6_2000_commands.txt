@@ -1,0 +1,1 @@
+generate_events highstat_r6_2000 -f

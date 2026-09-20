@@ -1,0 +1,50 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+*.egg-info/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Generated MadGraph builds and compiled objects
+generated/
+mg5/
+*.so
+*.o
+*.a
+*.mod
+
+# Large/transient scientific artifacts
+*.pt
+*.pth
+*.ckpt
+*.lhe
+*.lhe.gz
+*.hepmc
+*.root
+*.npy
+*.npz
+*.log
+param.log
+
+# Working result tree: publish only curated compact artifacts
+results/
+!results_public/
+
+# Local build products
+.deck_build/
+.codex-finalizer/
+build/
+dist/
+
+# Notebook autosaves
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/

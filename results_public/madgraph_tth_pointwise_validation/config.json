@@ -1,0 +1,21 @@
+{
+  "process": "g g > t t~ h, (t > b w+, w+ > e+ ve), (t~ > b~ w-, w- > mu- vm~), (h > b b~) @1",
+  "mg5": "<MG5_ROOT>/bin/mg5_aMC",
+  "candidate": "<PROJECT_ROOT>/generated/gg_tth_full_standalone",
+  "reference": "<PROJECT_ROOT>/generated/gg_tth_pointwise_reference",
+  "param_card": "<PROJECT_ROOT>/generated/gg_tth_full_standalone/Cards/param_card.dat",
+  "energies_gev": [
+    800.0,
+    1400.0,
+    1990.0,
+    2000.0
+  ],
+  "points_per_energy": 100,
+  "seed": 20260920,
+  "alpha_s": 0.118,
+  "width_window": 15.0,
+  "tolerance": 1e-10,
+  "max_abs_relative_difference": 0.0,
+  "passed": true,
+  "seconds": 2.0989611580152996
+}

@@ -1,0 +1,2 @@
+survey precision_2000 --points=10000 --iterations=8 --accuracy=0.001
+refine 0.0002 5

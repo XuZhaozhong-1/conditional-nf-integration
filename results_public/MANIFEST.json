@@ -1,0 +1,1244 @@
+{
+  "source": "results",
+  "output": "results_public",
+  "runs": [
+    "madgraph_tth_validation",
+    "madgraph_tth_pointwise_validation",
+    "madgraph_tth_sobol_highstat",
+    "madgraph_tth_sobol_ultrastat",
+    "madgraph_tth_madevent_precision",
+    "nf_vs_madevent_tth",
+    "nf_vs_madevent_tth_highstat",
+    "nf_vs_madevent_tth_exact_error_audit",
+    "copula_bin_sweep",
+    "copula_benchmark_sweep"
+  ],
+  "files": [
+    {
+      "file": "madgraph_tth_validation/config.json",
+      "bytes": 647,
+      "sha256": "80b810917e6862f8faa1339f0388b96beec3087ee9ac07fce1d86c11ae4d3b7e"
+    },
+    {
+      "file": "madgraph_tth_validation/replicate_results.csv",
+      "bytes": 3853,
+      "sha256": "040f54f0dadd973231e2ac18a9f16cbef1f29c2a0e590f301a41e8858845498c"
+    },
+    {
+      "file": "madgraph_tth_validation/summary.csv",
+      "bytes": 1859,
+      "sha256": "ff5c026b173fd48573495f933a9f5fe888000b0ff2db4fd7e1bfe3f75702fd7b"
+    },
+    {
+      "file": "madgraph_tth_pointwise_validation/config.json",
+      "bytes": 632,
+      "sha256": "6348157596a5662ee9ab12a9b370b64b10ded914080386d830c289fe322bd088"
+    },
+    {
+      "file": "madgraph_tth_pointwise_validation/pointwise_results.csv",
+      "bytes": 32799,
+      "sha256": "1c06ea34ec25461ccecc2c00b6dd767c0daf6b800dfdf7a70d1ea8e596618f5e"
+    },
+    {
+      "file": "madgraph_tth_pointwise_validation/summary.csv",
+      "bytes": 204,
+      "sha256": "2dd9b1b5bc2e25fc69e2b1e4e7e24c10d7a55d69a40725f1803e5ed31c0eaf3b"
+    },
+    {
+      "file": "madgraph_tth_sobol_highstat/config.json",
+      "bytes": 674,
+      "sha256": "6d32afb75f640e84f7e0a429f556f47d59f10c2616fcb6961d0eaa3357670152"
+    },
+    {
+      "file": "madgraph_tth_sobol_highstat/replicate_results.csv",
+      "bytes": 3149,
+      "sha256": "9ee1ee8851074b7e0b59406ee6884f213e1c90e9cbbb6786736d8c4fcbb4aac4"
+    },
+    {
+      "file": "madgraph_tth_sobol_highstat/summary.csv",
+      "bytes": 995,
+      "sha256": "fd8cf447ee0671c0d7c1142043daeaf88b97f88cdecc4cafcda212e5e3744bfb"
+    },
+    {
+      "file": "madgraph_tth_sobol_ultrastat/config.json",
+      "bytes": 662,
+      "sha256": "980e379fa1e453b6d528e24052efd4d2fc67ec31e6c23ffe9f13dd9883c468d7"
+    },
+    {
+      "file": "madgraph_tth_sobol_ultrastat/replicate_results.csv",
+      "bytes": 1670,
+      "sha256": "01d8167d7580da997c463c8733bbdf26ec9e4b217aad1760bce380d1db58deb9"
+    },
+    {
+      "file": "madgraph_tth_sobol_ultrastat/summary.csv",
+      "bytes": 364,
+      "sha256": "aaaa6488978213e2ed522be6151a656c9c9be12d316e90fe64eb6244b6f3ff7d"
+    },
+    {
+      "file": "madgraph_tth_madevent_precision/comparison.csv",
+      "bytes": 688,
+      "sha256": "0f3e3760b1415350023de234ce46a0764d83522f47f0549933a01b3dba1d7af3"
+    },
+    {
+      "file": "madgraph_tth_madevent_precision/config.json",
+      "bytes": 742,
+      "sha256": "9714c1974e08366eb09556b0cb6e5b64b9c4bf217e20be4a55376b0994b4c6a9"
+    },
+    {
+      "file": "madgraph_tth_madevent_precision/precision_1990_commands.txt",
+      "bytes": 85,
+      "sha256": "b33c7e06ffc0ce2b4922f8af459f07ee094b5ab64841397e5dfb21f615a47793"
+    },
+    {
+      "file": "madgraph_tth_madevent_precision/precision_2000_commands.txt",
+      "bytes": 85,
+      "sha256": "c3b53bd1564f46defda935ef48108834e8d74d16f2db9b4b5cd829264e335647"
+    },
+    {
+      "file": "nf_vs_madevent_tth/config.json",
+      "bytes": 713,
+      "sha256": "d04bdbb18469c161556e020197af72cefec361e62902ecac1de6b7e9c72dba34"
+    },
+    {
+      "file": "nf_vs_madevent_tth/method_comparison.csv",
+      "bytes": 500,
+      "sha256": "cc04fd69083bdb9cbf375aed22224e4f554b7f0410b864b4ed3c7dd9ee632aae"
+    },
+    {
+      "file": "nf_vs_madevent_tth/partial_results.csv",
+      "bytes": 6635,
+      "sha256": "4773796c13a661fc1efbe8c9a9d93bb01113d28faaafbb3034fb7caa1c7ca9f7"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_1000_commands.txt",
+      "bytes": 44,
+      "sha256": "92596a7f4c25957579b5afe7ccbba72a383bac73dfacf9269add6f7c1ae88c83"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_1400_commands.txt",
+      "bytes": 44,
+      "sha256": "34ebc94042dfdef00712cb64df47c22567b96e9d7bd84cd0f6769fba231abc99"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_2000_commands.txt",
+      "bytes": 44,
+      "sha256": "544046fc1ce63ac30893376aac9cab6916ff1bc693029a8a8f80f3f71e0ad594"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_600_commands.txt",
+      "bytes": 43,
+      "sha256": "cb74f70802adfba1bed2586a7441199f0baffcc9de33c5e192e10f680d53855c"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_800_commands.txt",
+      "bytes": 43,
+      "sha256": "59428295bfff6671cac31fb62c05095da1a442318115e677b3f3d4901d93a34a"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_1000_commands.txt",
+      "bytes": 44,
+      "sha256": "961462aa6715a5b9c6b2f9f03a7c2fd46ff9993a7285d53163e3e4322a969767"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_1400_commands.txt",
+      "bytes": 44,
+      "sha256": "0b1756b6004c5ed101a096777a9f06d6de49d1dc0063cc73eb88c876ef8c42ca"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_2000_commands.txt",
+      "bytes": 44,
+      "sha256": "5fbdfeb755ae9dd884c77e3dbe5b04a67d4b610e7ab5baa9a74b0485dca91149"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_600_commands.txt",
+      "bytes": 43,
+      "sha256": "9efca749d095971803479f659104441134559bf7f5e654f492b6f331a46b6447"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_800_commands.txt",
+      "bytes": 43,
+      "sha256": "964bc73e56c2c86af34740ceecb5d4150e744428af31633b1cb12469c40c158a"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_1000_commands.txt",
+      "bytes": 44,
+      "sha256": "9343eba0a7ff39fca8d48d88619dc79d1cf8db28b2c3e66fb4e6356899ddd0bc"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_1400_commands.txt",
+      "bytes": 44,
+      "sha256": "9b7c3246bfc2599ad356947cede7f9b1b6af3cff140e315ea3a9ad0f69165621"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_2000_commands.txt",
+      "bytes": 44,
+      "sha256": "5cca1d11754e7ce7370983bb67d0cdf1fc842b4c3d6ae1bd5983fb59df2fcabe"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_600_commands.txt",
+      "bytes": 43,
+      "sha256": "a443d08bd7e705ba3b1bdf2fd14226888a632dfd50adf6f76a1dc242be8ce3b3"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_800_commands.txt",
+      "bytes": 43,
+      "sha256": "01f3daf4e920cba8f054d5e5946819badb501b51dd58348453f8079cf8c6638b"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_1000_commands.txt",
+      "bytes": 44,
+      "sha256": "d5b87d0186401c576a9ce274c905bd3e49e0032eaa0fab354352b8aac4e20989"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_1400_commands.txt",
+      "bytes": 44,
+      "sha256": "14a310ecd8aacb45c3e3fc3d9d7cf4dd0866eeafc07c4ec7f01ece0a7ccb9da6"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_2000_commands.txt",
+      "bytes": 44,
+      "sha256": "66bf8ac4cd77b48eacdcacf4dac75cf0fa1b0bb382937ba09df808b14d5961ab"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_600_commands.txt",
+      "bytes": 43,
+      "sha256": "b9550596811f1b5aa7fccd1962b56c0053d0ef9ce6df0f994d2233b908bd7c70"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_800_commands.txt",
+      "bytes": 43,
+      "sha256": "137fd52bea385c71609e5abeb6577b2f5a43d6ef8a7213445997d13ecf53ca29"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_1000_commands.txt",
+      "bytes": 44,
+      "sha256": "692cb31623ddde99b8a44ed7c177df42e98c97798091dd0a88b1a95660dbb1ba"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_1400_commands.txt",
+      "bytes": 44,
+      "sha256": "7f89e2ffad0d6f05f15ea0973555bcf17e624c2ae2f44a8cd67a53f797036e6b"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_2000_commands.txt",
+      "bytes": 44,
+      "sha256": "2eef5656b4fc0ae547610a96175fd7e5e0e5ed3604475d1ce366f9dbb27701c0"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_600_commands.txt",
+      "bytes": 43,
+      "sha256": "38c3a28361ca87cd42f291a9d592c8af06cdc6b6361df3ed66b977e1c91da1a2"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_800_commands.txt",
+      "bytes": 43,
+      "sha256": "c5fee8598981260af5748c55c003938474898c11611dbc36bc390ca902ccbd97"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r0_600_commands.txt",
+      "bytes": 38,
+      "sha256": "53013e00277c807261c8e73087d123f70c32e66b5e03e7efea6ab08f5b1680a1"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r0_800_commands.txt",
+      "bytes": 38,
+      "sha256": "0f10704b7f6ffa2a7184f4873e7eacd019ee7b2e08cf2423ea0a2e595bbce34e"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r1_600_commands.txt",
+      "bytes": 38,
+      "sha256": "3742976ff106f351325735338d9bd9bda7249af36b44967c511e6f7ef714a522"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r1_800_commands.txt",
+      "bytes": 38,
+      "sha256": "2c8309f678fa4fe854c3e7bca81c97b68cb3ffe2a3882d4645067ac368452969"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r2_600_commands.txt",
+      "bytes": 38,
+      "sha256": "90b340b7c62f7fcf3a463b0ce849d4160f8935bdfe2c0745090da8a2a0941ede"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r2_800_commands.txt",
+      "bytes": 38,
+      "sha256": "9ab9bbf56610c43f95b2feb2ea17c44fa28fc6c7ae4ee8d96d2eeef5fa181a07"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r3_600_commands.txt",
+      "bytes": 38,
+      "sha256": "300d6a3fb8e8377b7d152c4bd610c6446f634c5da21f5e70bd87a21ae8c5cf40"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r4_600_commands.txt",
+      "bytes": 38,
+      "sha256": "9268c7bdebcafaed989ee876a743f80e183cdea4ec83b892d6301d09f2b83a45"
+    },
+    {
+      "file": "nf_vs_madevent_tth/raw_results.csv",
+      "bytes": 6635,
+      "sha256": "4773796c13a661fc1efbe8c9a9d93bb01113d28faaafbb3034fb7caa1c7ca9f7"
+    },
+    {
+      "file": "nf_vs_madevent_tth/raw_results_with_mg_errors.csv",
+      "bytes": 6989,
+      "sha256": "6419b1639f1d892a3574fee2ab03a7b0af7aca5ffca8f66deb5def36ae36cf28"
+    },
+    {
+      "file": "nf_vs_madevent_tth/summary.csv",
+      "bytes": 1380,
+      "sha256": "97216d4eabebb8fcb2278d4e18761c9e25445e9f0b982d02a89c24d45ee1b515"
+    },
+    {
+      "file": "nf_vs_madevent_tth/summary_with_mg_errors.csv",
+      "bytes": 1449,
+      "sha256": "302f67b464d6594ef5b1e871b18fb62d7a605bf91c33d393ca1b6508fcfeb69b"
+    },
+    {
+      "file": "nf_vs_madevent_tth/validation_with_mg_errors.csv",
+      "bytes": 959,
+      "sha256": "5833fa0c3145a6d036c307ddeffc50ec9d5eb016a4ef4912faad84c4a9510139"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/config.json",
+      "bytes": 681,
+      "sha256": "4ed1740ac0a24ce532799394c9acfda717b02bcc914a259804157993564525e8"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r0_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "5b706ccd7104dd76ff91aadd9ee4205204dfd4574da6a371ea70f8498298c526"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r0_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "90ebe9772eb8261f902ab26cf855464d33c761442278c0043f0900a4721179ea"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r1_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "fd420ee3a653ffc07a6f336103caed55eaff9f4d2d6b960d53ee1b8cad8696f5"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r1_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "92619a7eaf51a1a4d965cd5a2f2fa901d829eb51c624d10e9719539eca94fa76"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r2_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "6e2bcff2354258dd3651eaf07d0c7a5bfc73d360e68f1a8e2fd14c75f4c6c7ad"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r2_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "b1e5438bf8fabc642f32c93c58b783204b9e3d37b4825856afacd19a57bd2f77"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r3_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "db29f987989708e7d74397dc1df71b2a9e3bb9ad1714fb37b162cb436cfc8b0d"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r3_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "138fd825707ae7608684769890e0560de2b8f7c220936087c0c647f0b0ed6bd5"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r4_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "6f4b310e547b6d78101726b1ece8a7acb56b118e54fd5876364d5f1347dbd3ff"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r4_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "1e29f240afc87d156ff310b0965ddef22b8f586c184400e7a871715f1708b132"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r5_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "b9de5cbd603692ef7a8e43d637350b4f7b0e3d00cd269d3efa9e55b1b0c12a9e"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r5_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "36b8949adb00a1082dc9d29d5ccee017f1591d7c7cb2d03082770d85201dea04"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r6_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "6fbf677e3f887e3178eccc755a9431d77921957616c37b5cef30d18ddd64ebd2"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r6_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "86a06235c1ec06a7b2e139816b0660106ed36f9544d44f3301be142bad1b0b93"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r7_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "50170097abd8286260fdfafef9178624c3230f7bedb34aa04f25f611f7b82bb3"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r7_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "c80d8a069e6c78eb8de9dbc75af691cbb801c488826b134d6bb1bf16794fa093"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r8_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "37cdbbe380c33579dfd8f54d04c8f41a74c6fa202efab2b9691a257695b2241e"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r8_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "4e2f464d3aff3cf696f7e8498d62b5c0bd4a9bd647cbcc66e5b8931d41fe9bf3"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r9_1400_commands.txt",
+      "bytes": 36,
+      "sha256": "fdbbaa9f7335bc671d9e542548099be3f6e4812420e54a55370162325cf0f4f5"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r9_2000_commands.txt",
+      "bytes": 36,
+      "sha256": "ddaecdf956420ef51c23748755230b14f5947bde8d2622b1f2e00969dece9a17"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/method_comparison.csv",
+      "bytes": 236,
+      "sha256": "66b0008281ebff058321e549590c8764c44ecb5189988fccd91a25e52fa08a27"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/partial_results.csv",
+      "bytes": 5241,
+      "sha256": "ecf1cfcee4ac02d81ccd26b25938eb4b0ac6c7b23c9c5ba2967be9807e793905"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/raw_results.csv",
+      "bytes": 5241,
+      "sha256": "ecf1cfcee4ac02d81ccd26b25938eb4b0ac6c7b23c9c5ba2967be9807e793905"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/raw_results_with_mg_errors.csv",
+      "bytes": 6346,
+      "sha256": "efa0c3c0c3c15cd588de79f058a259b75809ee30d9639d058ad03f6fbeb39da7"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/summary.csv",
+      "bytes": 639,
+      "sha256": "7d74fad52b448909a012fe3b21acc0819e7fdc23e54d42b79ade9c64c7fa507d"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/summary_with_mg_errors.csv",
+      "bytes": 800,
+      "sha256": "978e8994ca9759828c20ccaafaeae17c2b2fdc2e5417cbab4047729cbede3af5"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/validation_with_mg_errors.csv",
+      "bytes": 481,
+      "sha256": "44f8f47b0559e3086b5cef5cdc95720bce3e00e8ad27548a3fc3a4bd2c3310c5"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/config.json",
+      "bytes": 699,
+      "sha256": "2d9428eac38e840fa310bb3ac586d5b2fe29f00123c75a5a6f86a996dd92f6a7"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r0_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "04a51242d5e43cabad004b352334b0b62d4dc8b2b9035e34df6cb2a24bed0498"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r0_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "7a74fc7ac6f5a6183aafd6239d78d137fb5eba2cf2af8f9bba03ce5ab932382a"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r1_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "23b003eacf81fe82d150c82bbf3b2c872788139c0ba8fc03534a6fe7ec0cdd3f"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r1_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "656fd8d0c50aae0f69e7d4529059ddf60b5ebfb13519247f67df2b5bf38844aa"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r2_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "6f5ef711062332a58b8549f94562a68bddc79329fca188eb1aad55fa1cb1b1f3"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r2_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "8bd755e25848e6700279204eeea4c830d4077dfaed5b725b60a23021a76e6c2c"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r3_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "7c9a3885025505d1b8dc0f38486b5bee1f421d8d303303aa5a3773425ee2787a"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r3_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "525afa6446abf65b680ed5f603976c4c054b63299aa09ce9eaf9a0e21145c74d"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r4_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "20d930839de51ce52c0b4665338cbfa0460404516e90c1d8ac8b97f9b5ec52d5"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r4_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "e3debfb2f5fbe0cbd432b98a17c5914787e7bd90c09b10ad376097f7710cc693"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r5_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "722eba83a8efd2392f1f2b14dc5fbdc52f59c20526ec505ca86a3bf21bc9e8c1"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r5_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "01d8234e38f0a91ab72cfdabdd9768aff7ccf059c33fa54ec516c81037392ce8"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r6_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "ff5734f40a8a02080259b822c96e32c68afc99ad047b4eb4b9e4c1e50a7c077b"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r6_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "2ddea8a87ac952368bb3cca3f6569336d484703f31d66f859b225693e91afbf0"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r7_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "5bdeec10508897cc986ef33e62a68b066ea39d2c6964b762aba980da001cd526"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r7_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "867523d20efafb313884fdc18f452bf90b91626ae13d7e181d54788d7c107250"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r8_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "d799bdce25358cef2e7666b64fc4ce4057d633d69204b8f2e2f17a73c89f6b3d"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r8_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "54e3a12e707da06a1a3f8993d231cdcfc347596c9223b93e91a32798de61c2a3"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r9_1990_commands.txt",
+      "bytes": 45,
+      "sha256": "a7eb647d034217d5b1b73040875c476d544f6cda32c5b957d75e9bb94c0c1c6d"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r9_2000_commands.txt",
+      "bytes": 45,
+      "sha256": "030d57469fa84ce85da6404203acd16726baaf262bb8f4c6ed77b002f0eca5f0"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/method_comparison.csv",
+      "bytes": 234,
+      "sha256": "608587ae36069067827e97350a2cb259b89f14deddae193031f5b3677ff5c409"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/partial_results.csv",
+      "bytes": 6015,
+      "sha256": "77f1664ec889235ceadb1ed669281219c41db90437d473c592684390d6a86ad6"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/raw_results.csv",
+      "bytes": 6015,
+      "sha256": "77f1664ec889235ceadb1ed669281219c41db90437d473c592684390d6a86ad6"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/summary.csv",
+      "bytes": 682,
+      "sha256": "feff247aaa32bb236760a9fef9823dcfc2b29511d69613e7a236ba6fbb472f73"
+    },
+    {
+      "file": "copula_bin_sweep/config.json",
+      "bytes": 394,
+      "sha256": "00292f8c4c08c2fbd0618b9b7d2e5e911d91659ad957869364c09ba90be3d0df"
+    },
+    {
+      "file": "copula_bin_sweep/plots/curved_ridge_ess_mean.png",
+      "bytes": 44531,
+      "sha256": "dc69f7bb686e5a36374e63edf1a67a22ebada3b7aeaa606a107886c6ccc2186b"
+    },
+    {
+      "file": "copula_bin_sweep/plots/curved_ridge_relative_error_mean.png",
+      "bytes": 53815,
+      "sha256": "6ee2a3c9318f327e92c72ea0b0e09044f41f76492dcba41cf602eb84a164018d"
+    },
+    {
+      "file": "copula_bin_sweep/plots/curved_ridge_train_time_mean.png",
+      "bytes": 43082,
+      "sha256": "2c79896f64b42688eba0e372a18c7f0f9a7583993dc38444a890f9fe93083c80"
+    },
+    {
+      "file": "copula_bin_sweep/plots/curved_ridge_variance_mean.png",
+      "bytes": 59104,
+      "sha256": "8520560aba24b0d0fc7949777fc998aac58184fb9cf635633b896f00188d6aa1"
+    },
+    {
+      "file": "copula_bin_sweep/plots/sharp_broad_ess_mean.png",
+      "bytes": 43027,
+      "sha256": "4677dc63495e2f54cea12a52281b1ddefd576e35f0d143118728f407d4c5b726"
+    },
+    {
+      "file": "copula_bin_sweep/plots/sharp_broad_relative_error_mean.png",
+      "bytes": 58683,
+      "sha256": "0ad4d184d8880d185452cb3e53e80b0362f18640d60691e6621d402d30da537e"
+    },
+    {
+      "file": "copula_bin_sweep/plots/sharp_broad_train_time_mean.png",
+      "bytes": 40503,
+      "sha256": "494746088ffc86a779a213561ec780491e62eae2e7d0935c540aea15dd994614"
+    },
+    {
+      "file": "copula_bin_sweep/plots/sharp_broad_variance_mean.png",
+      "bytes": 51127,
+      "sha256": "f58058d4d30569f338cebd22a9603996bc9f3ef2115911926ceddb8976528760"
+    },
+    {
+      "file": "copula_bin_sweep/plots/single_gaussian_ess_mean.png",
+      "bytes": 59201,
+      "sha256": "b10c4948b6c2d078886a0a8936e044f4feb7fa037605d1da0735480798432d54"
+    },
+    {
+      "file": "copula_bin_sweep/plots/single_gaussian_relative_error_mean.png",
+      "bytes": 73024,
+      "sha256": "0f1838309622e6ac153a775188e47f85ede8d7790357a9a2150281ef1c9f4541"
+    },
+    {
+      "file": "copula_bin_sweep/plots/single_gaussian_train_time_mean.png",
+      "bytes": 42252,
+      "sha256": "9c3e12bc6ace550b092425c67d2f09078df2d5104e41955f6197c0c06d6efeba"
+    },
+    {
+      "file": "copula_bin_sweep/plots/single_gaussian_variance_mean.png",
+      "bytes": 68246,
+      "sha256": "cefba0605a456d6d2e545b1ed1272f96bdcae92699c0f9d1ea39310071608c13"
+    },
+    {
+      "file": "copula_bin_sweep/plots/xshape_ess_mean.png",
+      "bytes": 46973,
+      "sha256": "22935b8272a6e4ab5e943cdb6e611aa8597a740c77bc4e11a249f9f58dbd0776"
+    },
+    {
+      "file": "copula_bin_sweep/plots/xshape_relative_error_mean.png",
+      "bytes": 54979,
+      "sha256": "380ebb00a570e55b8a52ce1dda7a9ab27e1e985e2d9e0e0c3bb1c2149b3ab584"
+    },
+    {
+      "file": "copula_bin_sweep/plots/xshape_train_time_mean.png",
+      "bytes": 40617,
+      "sha256": "fefa4e46a76f2a35f13f58c8b9b918a09687aaa248fedcae6ab9250325650c93"
+    },
+    {
+      "file": "copula_bin_sweep/plots/xshape_variance_mean.png",
+      "bytes": 54842,
+      "sha256": "dbcb978562d3883d7211a851c9d6a9cef7d045cec5bcb882fe1fef88b867e457"
+    },
+    {
+      "file": "copula_bin_sweep/raw_results.csv",
+      "bytes": 152068,
+      "sha256": "20994be73d8a9c87aa91c130f35afdf65453aff7eede4a4fbbb8e39f98abe42e"
+    },
+    {
+      "file": "copula_bin_sweep/summary.csv",
+      "bytes": 9615,
+      "sha256": "95bb1bc50de179c9fdc1c87f70ba5c42515dfc69050896b421fbae1880284d40"
+    },
+    {
+      "file": "copula_benchmark_sweep/.ipynb_checkpoints/summary-checkpoint.csv",
+      "bytes": 1936,
+      "sha256": "b0d2cdc82d155442ddbcf0ab1a419a7be0381895e99f1b974be28ba3139c78e9"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/curved_ridge_copula-checkpoint.png",
+      "bytes": 325054,
+      "sha256": "884afb9621ca8e4b432de70a7c6b7500e57cb01fcf9b03c62a2a45a39063c81e"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/curved_ridge_cubic_coupling-checkpoint.png",
+      "bytes": 113235,
+      "sha256": "0ba1c2d2e27e8b1fb33b77c72591c8751608073192381d7b45e080151906ea69"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/sharp_broad_copula-checkpoint.png",
+      "bytes": 264979,
+      "sha256": "b5ecb6d6f5085b026ed0d71d4dfcc0ea08a53d82b3000b1a24113a0619d06afc"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/sharp_broad_cubic_coupling-checkpoint.png",
+      "bytes": 136075,
+      "sha256": "7c4a71e7944a9ddac084b99779f7d7f9e1349988c48503ae07906ffda5222cca"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/sharp_broad_product-checkpoint.png",
+      "bytes": 192222,
+      "sha256": "08ba03cf619e79715afd824abc487480cdb869808bcd7dab6b9c4bac53d3018e"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/single_gaussian_copula-checkpoint.png",
+      "bytes": 131824,
+      "sha256": "541badf8971a5f2ad02d41eb8d345aa075e2f0026a692c53e76f27219feccabe"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/single_gaussian_cubic_coupling-checkpoint.png",
+      "bytes": 75016,
+      "sha256": "d2b8cd0b483f5077e3327902923db016d6fd2e3520cc6ccd4fd6ff1f7b2a913a"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/single_gaussian_product-checkpoint.png",
+      "bytes": 109541,
+      "sha256": "7be3351c0890ea2787224ef424bc468df593b5ae42c91bcb7591cdc106fee8c1"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/xshape_copula-checkpoint.png",
+      "bytes": 463565,
+      "sha256": "fc204309c729c13432bec67d1dac6c1442bb7ebd70baf462cc222367b54a346e"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/.ipynb_checkpoints/xshape_cubic_coupling-checkpoint.png",
+      "bytes": 182961,
+      "sha256": "a2ebaa01a19768175b35c7ce09b14453fd24109dad57fc4e6cb6a8b69ab94412"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/curved_ridge_copula.png",
+      "bytes": 325054,
+      "sha256": "884afb9621ca8e4b432de70a7c6b7500e57cb01fcf9b03c62a2a45a39063c81e"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/curved_ridge_cubic_coupling.png",
+      "bytes": 113235,
+      "sha256": "0ba1c2d2e27e8b1fb33b77c72591c8751608073192381d7b45e080151906ea69"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/sharp_broad_copula.png",
+      "bytes": 264979,
+      "sha256": "b5ecb6d6f5085b026ed0d71d4dfcc0ea08a53d82b3000b1a24113a0619d06afc"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/sharp_broad_cubic_coupling.png",
+      "bytes": 136075,
+      "sha256": "7c4a71e7944a9ddac084b99779f7d7f9e1349988c48503ae07906ffda5222cca"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/sharp_broad_product.png",
+      "bytes": 192222,
+      "sha256": "08ba03cf619e79715afd824abc487480cdb869808bcd7dab6b9c4bac53d3018e"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/single_gaussian_copula.png",
+      "bytes": 131824,
+      "sha256": "541badf8971a5f2ad02d41eb8d345aa075e2f0026a692c53e76f27219feccabe"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/single_gaussian_cubic_coupling.png",
+      "bytes": 75016,
+      "sha256": "d2b8cd0b483f5077e3327902923db016d6fd2e3520cc6ccd4fd6ff1f7b2a913a"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/single_gaussian_product.png",
+      "bytes": 109541,
+      "sha256": "7be3351c0890ea2787224ef424bc468df593b5ae42c91bcb7591cdc106fee8c1"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/xshape_copula.png",
+      "bytes": 463565,
+      "sha256": "fc204309c729c13432bec67d1dac6c1442bb7ebd70baf462cc222367b54a346e"
+    },
+    {
+      "file": "copula_benchmark_sweep/plots/xshape_cubic_coupling.png",
+      "bytes": 182961,
+      "sha256": "a2ebaa01a19768175b35c7ce09b14453fd24109dad57fc4e6cb6a8b69ab94412"
+    },
+    {
+      "file": "copula_benchmark_sweep/results.json",
+      "bytes": 3902,
+      "sha256": "1845c62bf123c08b393f35cd3fbb97c8c2178ed0d15f3fb2114049a24539c5b6"
+    },
+    {
+      "file": "copula_benchmark_sweep/summary.csv",
+      "bytes": 1927,
+      "sha256": "c0ac50ffe86b449170fb757277cb3b7e5254a83ab35e72b53c0509cfe2a9de67"
+    }
+  ],
+  "skipped": [
+    {
+      "file": "madgraph_tth_madevent_precision/precision_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "madgraph_tth_madevent_precision/precision_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "madgraph_tth_madevent_precision/precision_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "madgraph_tth_madevent_precision/precision_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_1000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r0_800.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_1000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r1_800.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_1000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r2_800.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_1000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r3_800.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_1000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_full_r4_800.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r0_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r0_800.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r1_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r1_800.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r2_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r3_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth/performance_r4_600.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r0_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r0_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r1_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r1_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r2_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r2_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r3_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r3_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r4_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r4_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r5_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r5_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r6_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r6_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r7_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r7_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r8_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r8_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r9_1400.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_highstat/highstat_r9_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r0_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r0_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r0_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r0_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r1_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r1_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r1_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r1_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r2_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r2_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r2_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r2_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r3_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r3_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r3_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r3_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r4_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r4_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r4_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r4_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r5_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r5_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r5_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r5_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r6_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r6_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r6_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r6_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r7_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r7_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r7_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r7_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r8_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r8_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r8_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r8_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r9_1990.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r9_1990_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r9_2000.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "nf_vs_madevent_tth_exact_error_audit/exact_error_audit_r9_2000_results.dat",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/curved_ridge_copula.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/curved_ridge_cubic_coupling.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/curved_ridge_marginal_x.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/curved_ridge_marginal_y.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/sharp_broad_copula.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/sharp_broad_cubic_coupling.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/sharp_broad_flow_x.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/sharp_broad_flow_y.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/sharp_broad_marginal_x.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/sharp_broad_marginal_y.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/single_gaussian_copula.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/single_gaussian_cubic_coupling.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/single_gaussian_flow_x.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/single_gaussian_flow_y.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/single_gaussian_marginal_x.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/single_gaussian_marginal_y.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/xshape_copula.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/xshape_cubic_coupling.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/xshape_marginal_x.pt",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "copula_benchmark_sweep/checkpoints/xshape_marginal_y.pt",
+      "reason": "suffix excluded"
+    }
+  ]
+}

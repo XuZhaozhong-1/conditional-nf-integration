@@ -1,0 +1,32 @@
+{
+  "benchmarks": [
+    "single_gaussian",
+    "sharp_broad",
+    "curved_ridge",
+    "xshape"
+  ],
+  "dimensions": [
+    2,
+    4,
+    8
+  ],
+  "bins": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_conditions": 5,
+  "marginal_steps": 1200,
+  "copula_steps": 1800,
+  "batch_size": 4096,
+  "n_eval": 50000,
+  "hidden": 128,
+  "cond_dim": 3,
+  "device": "cuda"
+}

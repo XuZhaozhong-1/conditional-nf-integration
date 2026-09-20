@@ -1,0 +1,29 @@
+{
+  "standalone": "generated/gg_tth_full_standalone",
+  "checkpoint": "results/madgraph_tth_copula_thorough/madgraph_tth_20_final_model.pt",
+  "sqrt_s_min": 600.0,
+  "sqrt_s_max": 2000.0,
+  "energies": [
+    1400.0,
+    1990.0,
+    2000.0
+  ],
+  "width_window": 15.0,
+  "alpha_s": 0.118,
+  "sobol_power": 15,
+  "replicates": 8,
+  "fixed_power": 18,
+  "fixed_replicates": 8,
+  "nf_evals": 500000,
+  "checkpoint_evals": 100000,
+  "uniform_fraction": 0.1,
+  "me_chunk": 10000,
+  "me_workers": 5,
+  "gpu_chunk": 10000,
+  "seed": 20260919,
+  "device": "cuda",
+  "skip_fixed": false,
+  "skip_average": true,
+  "skip_nf": false,
+  "output": "results/madgraph_tth_sobol_highstat"
+}

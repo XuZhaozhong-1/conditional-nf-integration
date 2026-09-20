@@ -1,0 +1,1 @@
+generate_events performance_full_r0_800 -f

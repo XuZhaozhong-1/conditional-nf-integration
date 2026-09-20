@@ -1,0 +1,24 @@
+{
+  "mg5": "<MG5_ROOT>/bin/mg5_aMC",
+  "process_dir": "generated/gg_tth_full_madevent",
+  "param_card": "generated/gg_tth_full_standalone/Cards/param_card.dat",
+  "energies": [
+    1990.0,
+    2000.0
+  ],
+  "width_window": 15.0,
+  "ren_scale": 91.188,
+  "required_accuracy": 0.002,
+  "nevents": 10000,
+  "integration_only": true,
+  "survey_points": 10000,
+  "survey_iterations": 8,
+  "survey_accuracy": 0.001,
+  "refine_accuracy": 0.0002,
+  "refine_max_channels": 5,
+  "seed": 260919,
+  "run_prefix": "precision",
+  "validation_summary": "results/madgraph_tth_sobol_ultrastat/summary.csv",
+  "output": "results/madgraph_tth_madevent_precision",
+  "process": "g g > t t~ h, (t > b w+, w+ > e+ ve), (t~ > b~ w-, w- > mu- vm~), (h > b b~) @1"
+}
