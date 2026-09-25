@@ -5,9 +5,9 @@
 This project learns one importance-sampling proposal for a continuously
 parameterized family of integrals
 
-\[
+$$
 I(c)=\int_{[0,1]^d} f(x\mid c)\,dx,
-\]
+$$
 
 where (x) denotes integration coordinates and (c) is an external
 condition. In the scattering applications, $c=\sqrt{\hat s}$, the partonic
@@ -23,13 +23,13 @@ importance weights retain the original integrand in the estimator.
 For a (d)-dimensional proposal, the implementation separates one-dimensional
 behavior from dependence:
 
-\[
+$$
 q_\theta(x\mid c)
 =c_\theta(u_1,\ldots,u_d\mid c)
  \prod_{i=1}^d q_{i,\theta}(x_i\mid c),
 \qquad
 u_i=F_{i,\theta}(x_i\mid c).
-\]
+$$
 
 Here $q_{i,\theta}$ and $F_{i,\theta}$ are the conditional marginal density
 and CDF for coordinate $i$. The copula density $c_\theta$ models the
@@ -50,16 +50,16 @@ Newton correction, safeguarded on the physical interval $[0,1]$.
 
 For the process sweep, the scalar normalized condition
 
-\[
+$$
 z=\frac{\sqrt{\hat s}-\sqrt{\hat s}_{\min}}
         {\sqrt{\hat s}_{\max}-\sqrt{\hat s}_{\min}}
-\]
+$$
 
 is represented by the three features
 
-\[
+$$
 (z,\ z^2,\ \log(1+z)/\log 2).
-\]
+$$
 
 ### Autoregressive copula
 
@@ -74,10 +74,10 @@ the process-sweep results.
 
 The learned density is mixed with a uniform proposal,
 
-\[
+$$
 r_\theta(x\mid c)
 =(1-\varepsilon)q_\theta(x\mid c)+\varepsilon,
-\]
+$$
 
 on the unit hypercube. This defensive component gives the proposal support
 throughout the integration domain and reduces the risk of missing regions that
@@ -85,22 +85,22 @@ the current learned model assigns very little probability.
 
 Fresh samples $x_n\sim r_\theta(\cdot\mid c)$ produce the estimator
 
-\[
+$$
 \widehat I_N(c)
 =\frac1N\sum_{n=1}^N
 \frac{f(x_n\mid c)}{r_\theta(x_n\mid c)}.
-\]
+$$
 
 Consequently, an imperfect neural proposal affects variance rather than
 silently replacing the physical integrand. The principal proposal diagnostic
 is normalized effective sample size,
 
-\[
+$$
 \frac{\mathrm{ESS}}{N}
 =\frac{(\sum_n w_n)^2}{N\sum_n w_n^2},
 \qquad
 w_n=\frac{f(x_n\mid c)}{r_\theta(x_n\mid c)}.
-\]
+$$
 
 Values near one indicate nearly constant importance weights at that condition.
 
@@ -130,10 +130,10 @@ map converts $x\in[0,1]^d$ to on-shell final-state four-momenta and returns
 the associated Jacobian. At fixed partonic energy, the implemented integrand
 has the schematic form
 
-\[
+$$
 f(x\mid\sqrt{\hat s})
 =\frac{|\mathcal M(p(x))|^2}{2\hat s}\,J(x).
-\]
+$$
 
 The study is currently parton-level and leading order. The generic process
 campaign uses a fixed value of $\alpha_s$ and does not include hadronic PDFs.
@@ -156,10 +156,10 @@ runs. For the 8D process, the initial five-energy comparison agreed within the
 reported uncertainties except for a provisional (2.30\sigma) fluctuation at
 300 GeV. An independent higher-statistics calculation at 300 GeV gave
 
-\[
+$$
 \sigma_{\rm NF}=0.0529874\pm0.000013\ \mathrm{pb},\qquad
 \sigma_{\rm Sobol}=0.0529849\pm0.0000031\ \mathrm{pb},
-\]
+$$
 
 corresponding to a $0.18\sigma$ difference and resolving that concern.
 

@@ -3,9 +3,9 @@
 This repository studies a conditional normalizing-flow proposal for families
 of multidimensional integrals,
 
-\[
+$$
 I(c)=\int_{[0,1]^d} f(x\mid c)\,dx.
-\]
+$$
 
 Instead of training a new sampler for every condition $c$, one model is
 trained across a continuous condition domain and reused at held-out conditions.
@@ -17,13 +17,13 @@ integrand in the estimator.
 
 The proposal separates individual coordinate shapes from their dependence:
 
-\[
+$$
 q_\theta(x\mid c)
 =c_\theta(u_1,\ldots,u_d\mid c)
  \prod_{i=1}^d q_{i,\theta}(x_i\mid c),
 \qquad
 u_i=F_{i,\theta}(x_i\mid c).
-\]
+$$
 
 - **Conditional marginals** learn how each coordinate changes with the
   condition. They use monotone cubic-Hermite spline maps on $[0,1]$.
@@ -35,10 +35,10 @@ u_i=F_{i,\theta}(x_i\mid c).
 
 For samples $x_n\sim r_\theta(\cdot\mid c)$, the final estimate is
 
-\[
+$$
 \widehat I_N(c)=\frac1N\sum_{n=1}^N
 \frac{f(x_n\mid c)}{r_\theta(x_n\mid c)}.
-\]
+$$
 
 Thus the learned model controls variance, while the importance ratio corrects
 for proposal mismatch. Training requires only evaluations of the unnormalized,
@@ -84,10 +84,10 @@ phase-space momenta and Jacobians.
 For the 8D benchmark, a provisional $2.30\sigma$ difference at 300 GeV was
 retested with higher statistics. The result became a $0.18\sigma$ difference:
 
-\[
+$$
 \sigma_{\rm NF}=0.0529874\pm0.000013\ \mathrm{pb},\qquad
 \sigma_{\rm Sobol}=0.0529849\pm0.0000031\ \mathrm{pb}.
-\]
+$$
 
 ### Synthetic 32-dimensional stress test
 
