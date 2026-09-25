@@ -1,0 +1,21 @@
+{
+  "config": "configs/processes/uu_ww_4l.json",
+  "checkpoint": "results/uu_ww_4l_thorough/madgraph_uu_ww_4l_8_final_model.pt",
+  "energies": null,
+  "sobol_power": 18,
+  "sobol_replicates": 8,
+  "nf_evals": 500000,
+  "gpu_chunk": 10000,
+  "uniform_fraction": 0.1,
+  "alpha_s": 0.118,
+  "seed": 20260920,
+  "device": "cuda",
+  "output": "results/uu_ww_4l_validation",
+  "resolved_energies": [
+    300.0,
+    500.0,
+    800.0,
+    1200.0,
+    1950.0
+  ]
+}

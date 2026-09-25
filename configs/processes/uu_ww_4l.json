@@ -1,0 +1,18 @@
+{
+  "name": "uu_ww_4l",
+  "description": "Doubly resonant u ubar to W+ W- to e+ nu_e mu- nubar_mu",
+  "model": "sm",
+  "process": "u u~ > w+ w- , w+ > e+ ve, w- > mu- vm~ @1",
+  "standalone": "generated/uu_ww_4l_standalone",
+  "phase_space": {
+    "type": "diboson_four_lepton",
+    "dimension": 8,
+    "final_pdgs": [-11, 12, 13, -14]
+  },
+  "condition": {
+    "name": "sqrt_s_hat_gev",
+    "minimum": 250.0,
+    "maximum": 2000.0,
+    "held_out": [300.0, 500.0, 800.0, 1200.0, 1950.0]
+  }
+}

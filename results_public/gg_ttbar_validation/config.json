@@ -1,0 +1,21 @@
+{
+  "config": "configs/processes/gg_ttbar.json",
+  "checkpoint": "results/gg_ttbar_thorough_unbuffered/madgraph_gg_ttbar_2_final_model.pt",
+  "energies": null,
+  "sobol_power": 18,
+  "sobol_replicates": 8,
+  "nf_evals": 500000,
+  "gpu_chunk": 10000,
+  "uniform_fraction": 0.1,
+  "alpha_s": 0.118,
+  "seed": 20260920,
+  "device": "cuda",
+  "output": "results/gg_ttbar_validation",
+  "resolved_energies": [
+    400.0,
+    650.0,
+    1000.0,
+    1500.0,
+    1950.0
+  ]
+}

@@ -11,7 +11,15 @@
     "nf_vs_madevent_tth_highstat",
     "nf_vs_madevent_tth_exact_error_audit",
     "copula_bin_sweep",
-    "copula_benchmark_sweep"
+    "copula_benchmark_sweep",
+    "gg_ttbar_thorough_unbuffered",
+    "gg_ttbar_validation",
+    "gg_tth_5d_thorough",
+    "gg_tth_5d_validation",
+    "gg_tth_5d_validation_repeat",
+    "uu_ww_4l_thorough",
+    "uu_ww_4l_validation",
+    "uu_ww_4l_300_highstat"
   ],
   "files": [
     {
@@ -773,6 +781,111 @@
       "file": "copula_benchmark_sweep/summary.csv",
       "bytes": 1927,
       "sha256": "c0ac50ffe86b449170fb757277cb3b7e5254a83ab35e72b53c0509cfe2a9de67"
+    },
+    {
+      "file": "gg_ttbar_thorough_unbuffered/madgraph_gg_ttbar_2_final_summary.csv",
+      "bytes": 259,
+      "sha256": "d1108f98ec618e11b2b1fbc185d04c7f97ce6bce1e6717b1121655f8284582a4"
+    },
+    {
+      "file": "gg_ttbar_thorough_unbuffered/madgraph_gg_ttbar_2_history.csv",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "gg_ttbar_validation/config.json",
+      "bytes": 468,
+      "sha256": "a7573a484f68799b26df944c925db2f55632c7e224160607b6eb29479015d928"
+    },
+    {
+      "file": "gg_ttbar_validation/replicate_results.csv",
+      "bytes": 4568,
+      "sha256": "508da929f41e3fade15cf5320a7d7b7f4796848c68823c1159bdf63e1229d7b1"
+    },
+    {
+      "file": "gg_ttbar_validation/summary.csv",
+      "bytes": 1665,
+      "sha256": "22eaf4633ac6d56c02b4fa89a672b17bed09c867f2cf64a7236759fae1223f5d"
+    },
+    {
+      "file": "gg_tth_5d_thorough/madgraph_gg_tth_5_final_summary.csv",
+      "bytes": 299,
+      "sha256": "a2453b0ce673aa5cd0197842ae07dd5a21dbd64f8af2a82380399d31d248aed5"
+    },
+    {
+      "file": "gg_tth_5d_thorough/madgraph_gg_tth_5_history.csv",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "gg_tth_5d_validation/config.json",
+      "bytes": 455,
+      "sha256": "9b87a971b872bdc7bb841b28a1e49d92005c4e9f2c43b1c91e5bfa1db0e9ccd1"
+    },
+    {
+      "file": "gg_tth_5d_validation/replicate_results.csv",
+      "bytes": 4658,
+      "sha256": "c8758ded97d9949f38197f8abbd296535377ee37b2738ea738a96fe850122dfa"
+    },
+    {
+      "file": "gg_tth_5d_validation/summary.csv",
+      "bytes": 1694,
+      "sha256": "8d3d385c3426af70784df7558ab1dc2567e08d810df35769144dd512846eb9c5"
+    },
+    {
+      "file": "gg_tth_5d_validation_repeat/config.json",
+      "bytes": 462,
+      "sha256": "768e31e484301d8b5648d78f39b32093ea57d1c1f2aed934615fd6d64d1e92a4"
+    },
+    {
+      "file": "gg_tth_5d_validation_repeat/replicate_results.csv",
+      "bytes": 4659,
+      "sha256": "9692f474cc5a00e9ba9ef586bf2faab45f49b209c3aea2086400534d8a78bd80"
+    },
+    {
+      "file": "gg_tth_5d_validation_repeat/summary.csv",
+      "bytes": 1692,
+      "sha256": "262eea006a0e52dcbf4c1eec9ba5a42e7fba0297b194dfbfccc9b2d1dae9a85c"
+    },
+    {
+      "file": "uu_ww_4l_thorough/madgraph_uu_ww_4l_8_final_summary.csv",
+      "bytes": 371,
+      "sha256": "6d81d17df1eb4f9a498fee1a0d94ce9eeba19e54b38de689d525d836bf1b1812"
+    },
+    {
+      "file": "uu_ww_4l_thorough/madgraph_uu_ww_4l_8_history.csv",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "uu_ww_4l_validation/config.json",
+      "bytes": 456,
+      "sha256": "ceba9fb8cb733b590bb0b2e5bda8bec7bcb6b28bb1cd49671f625d0dc618b37d"
+    },
+    {
+      "file": "uu_ww_4l_validation/replicate_results.csv",
+      "bytes": 4661,
+      "sha256": "2dd2f50afd0518edddd7badaeb9507466f3602dbb7306dabad9e5eb0c008059c"
+    },
+    {
+      "file": "uu_ww_4l_validation/summary.csv",
+      "bytes": 1687,
+      "sha256": "da3f8cd9cf8f338c7c02279d1d98aea3507578e60f78af803b9da266ab8f06c4"
+    },
+    {
+      "file": "uu_ww_4l_300_highstat/config.json",
+      "bytes": 425,
+      "sha256": "97edb4fd5d3cd8bee518ddfcfe1bf003984e32b590667829518fd273a50b1182"
+    },
+    {
+      "file": "uu_ww_4l_300_highstat/replicate_results.csv",
+      "bytes": 1777,
+      "sha256": "4a257c15f8d4231b95bf9ef0c3f8a9156c33c3c20dadb836a8fc0c84a7b3f0fe"
+    },
+    {
+      "file": "uu_ww_4l_300_highstat/summary.csv",
+      "bytes": 441,
+      "sha256": "c26e0e4ea1766d23494987e637d5f2879dcf09b4d9b7a9acd16a33d0f026ebee"
     }
   ],
   "skipped": [
