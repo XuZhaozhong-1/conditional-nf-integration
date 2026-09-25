@@ -192,3 +192,34 @@ for arbitrary scattering calculations. In particular:
 These boundaries are intentional: the present results validate the numerical
 method and its conditional reuse without claiming more generality than has
 been tested.
+
+## Synthetic 32-dimensional stress test
+
+The repository also contains a non-physics stress test, `sparse_wave_32`, with
+a known unit integral and an autoregressive conditional density on
+$[0,1]^{32}$. The first two coordinates are uniform. Each subsequent
+coordinate follows a truncated normal whose mean depends nonlinearly on earlier
+coordinates and on a three-component condition. The exact sampler is hidden
+from training and integration and is used only afterward for diagnostic plots.
+
+One frozen conditional NF and one fixed VEGAS configuration were evaluated on
+the same bank of 160 held-out conditions, with approximately one million
+integrand evaluations per method and condition. The aggregate results were:
+
+| Method | Mean estimate | Mean absolute error | RMSE | Mean ESS/N | Nominal 95% coverage |
+|---|---:|---:|---:|---:|---:|
+| conditional NF | 0.999254 | 0.001367 | 0.001894 | 0.5328 | 0.7875 |
+| tested VEGAS configuration | 0.0000135 | 0.999987 | 0.999987 | -- | 0.0000 |
+
+The comparison demonstrates that the learned autoregressive proposal can
+represent this strongly dependent 32D target, whereas the particular
+axis-adaptive VEGAS setup used here fails to discover its narrow correlated
+support within the assigned budget. It is not a claim that every VEGAS
+implementation or tuning must fail.
+
+The NF coverage of 0.7875 is also materially below the nominal 0.95. Thus the
+point estimates are accurate in aggregate, but the per-condition Monte Carlo
+standard errors are undercalibrated for this experiment, plausibly because of
+rare importance-weight tails. The published marginal, dependence, correlation,
+and weight-tail plots are included specifically to expose this limitation
+rather than hide it.
